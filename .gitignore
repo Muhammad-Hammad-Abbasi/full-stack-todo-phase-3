@@ -10,7 +10,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+/lib/
 lib64/
 parts/
 sdist/
@@ -41,10 +41,6 @@ pnpm-debug.log*
 # Next.js
 .next/
 out/
-
-# Gemini/AI
-.gemini/
-history/prompts/
 
 # OS
 .DS_Store
