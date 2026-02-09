@@ -1,4 +1,4 @@
-const ENV_URL = process.env.NEXT_PUBLIC_API_URL || 'https://phase-2-todo-web.onrender.com';
+const ENV_URL = process.env.NEXT_PUBLIC_API_URL || 'https://full-stack-todo-phase-3.onrender.com';
 export const API_URL = ENV_URL.replace(/[\[\]"]/g, "").trim().replace(/\/$/, '') + '/api/v1';
 
 export async function fetchAPI(endpoint: string, options: RequestInit = {}) {
